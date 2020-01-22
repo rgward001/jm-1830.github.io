@@ -196,6 +196,7 @@ header .header-content .header-content-inner p {
 .content {
     padding: 100px 0;
 	text-align: center;
+	
 }
 
 .content-2 {
@@ -296,12 +297,12 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: rgba(203, 206, 10, 0.664);
+    color: black;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: yellow;
 }
 
 .navbar-default .nav > li>a,
@@ -438,6 +439,11 @@ fieldset[disabled] .btn-default.active {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.text-muted {
+	color: black;
+	
 }
 
 .btn-primary:hover,
